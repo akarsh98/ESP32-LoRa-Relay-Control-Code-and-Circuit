@@ -9,9 +9,11 @@ The Pcb uses:
 3) OLED SSD13086 0.96' display
 4) Other basic components.
 
-This PCB also has a display and 4 buttons which can be used as a remote control for some device as well. You can do anything with the code design your own UI. So, in short, this project has an esp8266 which can give WiFi functionality, LoRa module, 1.8 inch TFT display, 4 push buttons for making a UI. Possibilities with the code are endless.
+This PCB also has an OLED display and 3 relays which are connected to the ESP32. You can do anything with the code and control the relays using LoRa/WiFi/Bluetooth. So, in short, this project has an ESP32 which can give WiFi/Bluetooth functionality, LoRa module, OLED display and 3 relays. Possibilities with the code are endless. I have also added a prototyping area where you can add sensors or additional relays to the ESP32 which is also accessible.
 
-It can be connected to your smartphone or any computer and it makes that device LoRa-enabled messenger. Now when that will be done you would be able to message any other device using the same LoRa messenger. This all is done without the presence of 4G/LTE/3G/GSM/WiFi/SMS. Which I have done in an earlier project which you can find here: https://www.instructables.com/id/LoRa-Remote-Control-Messenger-With-a-18-TFT-for-Di/
+This is a type of part 2 of a project. So for any control system like this one you need a remote to control the things.
+I made a LoRa based remote which you can check out here:https://www.instructables.com/id/LoRa-Remote-Control-Messenger-With-a-18-TFT-for-Di/
+In my case I am using the remote and this controller together and they work like a charm!
 
 There are 3 relays on board connected to pin 25/26/27 which can be customised using the selector jumpers under the ESP32 board.
 
